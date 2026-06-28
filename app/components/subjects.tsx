@@ -4,6 +4,7 @@ import Link from "next/link";
 const subjects = {
   "Semester-1": [
     "Basic Electrical and Electronics",
+    "Basics of Mechanical Engineering",
     "C Programming",
     "Engineering Mathematics-1",
     "Engineering Physics",
