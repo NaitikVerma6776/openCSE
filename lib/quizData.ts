@@ -32,6 +32,99 @@ export interface ModuleQuizCard {
 }
 
 export const quizzes: Quiz[] = [
+
+  {
+    subject: "Basics of Mechanical Engineering",
+    slug: "bme",
+    description: "Test your knowledge of thermodynamics, steam properties, engine cycles, IC engines, engineering materials, manufacturing processes, and solid mechanics.",
+    questions: [
+      {
+        id: 1,
+        question: "Which law of thermodynamics states that energy cannot be created or destroyed?",
+        options: ["Zeroth Law", "First Law", "Second Law", "Third Law"],
+        answer: 1,
+        explanation: "The First Law of Thermodynamics is the law of conservation of energy — energy can only be converted from one form to another.",
+      },
+      {
+        id: 2,
+        question: "The Carnot efficiency of a heat engine working between temperatures T1 (source) and T2 (sink) is:",
+        options: ["1 + T2/T1", "T2/T1", "1 - T2/T1", "T1/T2"],
+        answer: 2,
+        explanation: "Carnot efficiency η = 1 - T2/T1, where T1 and T2 are in Kelvin. It represents the maximum possible efficiency between two temperature reservoirs.",
+      },
+      {
+        id: 3,
+        question: "The dryness fraction (x) of wet steam is defined as:",
+        options: [
+          "Mass of wet steam / Mass of dry steam",
+          "Mass of dry steam / Total mass of wet steam",
+          "Volume of steam / Total volume",
+          "Heat in steam / Latent heat",
+        ],
+        answer: 1,
+        explanation: "Dryness fraction x = m_s / (m_s + m_w), where m_s is mass of dry steam and m_w is mass of suspended water droplets. x = 1 means completely dry saturated steam.",
+      },
+      {
+        id: 4,
+        question: "In the Otto cycle, heat addition takes place at:",
+        options: ["Constant pressure", "Constant temperature", "Constant volume", "Constant entropy"],
+        answer: 2,
+        explanation: "In the Otto cycle (ideal petrol engine cycle), both heat addition and heat rejection occur at constant volume (isochoric processes).",
+      },
+      {
+        id: 5,
+        question: "CRDI stands for:",
+        options: [
+          "Common Rail Direct Injection",
+          "Controlled Rate Diesel Ignition",
+          "Compression Ratio Direct Injection",
+          "Common Rate Direct Ignition",
+        ],
+        answer: 0,
+        explanation: "CRDI — Common Rail Direct Injection — is a modern diesel fuel injection technology where a single high-pressure rail supplies fuel to all injectors simultaneously.",
+      },
+      {
+        id: 6,
+        question: "Which of the following is a ferrous metal?",
+        options: ["Aluminium", "Copper", "Mild Steel", "Titanium"],
+        answer: 2,
+        explanation: "Ferrous metals contain iron as the primary element. Mild steel (iron + carbon) is a classic ferrous metal. Aluminium, Copper, and Titanium are non-ferrous.",
+      },
+      {
+        id: 7,
+        question: "The bending equation is given by:",
+        options: ["T/J = τ/r", "M/I = σ/y = E/R", "σ = E × ε", "P = 2πNT/60"],
+        answer: 1,
+        explanation: "The bending equation M/I = σ/y = E/R relates bending moment (M), moment of inertia (I), bending stress (σ), distance from neutral axis (y), Young's modulus (E), and radius of curvature (R).",
+      },
+      {
+        id: 8,
+        question: "In the Diesel cycle, heat addition takes place at:",
+        options: ["Constant volume", "Constant temperature", "Constant pressure", "Constant entropy"],
+        answer: 2,
+        explanation: "Unlike the Otto cycle, the Diesel cycle has heat addition at constant pressure (isobaric process), which corresponds to the fuel injection and combustion phase.",
+      },
+      {
+        id: 9,
+        question: "MPFI stands for:",
+        options: [
+          "Multi-Point Fuel Injection",
+          "Maximum Pressure Fuel Ignition",
+          "Multi-Phase Fuel Injection",
+          "Minimum Pressure Fuel Ignition",
+        ],
+        answer: 0,
+        explanation: "MPFI — Multi-Point Fuel Injection — is a petrol engine fuel delivery system where separate injectors are placed near the intake port of each cylinder, controlled by an ECU.",
+      },
+      {
+        id: 10,
+        question: "The torsion equation is given by:",
+        options: ["M/I = σ/y", "T/J = τ/r = Gθ/L", "σ = E × ε", "η = 1 - T2/T1"],
+        answer: 1,
+        explanation: "The torsion equation T/J = τ/r = Gθ/L relates torque (T), polar moment of inertia (J), shear stress (τ), radius (r), shear modulus (G), angle of twist (θ), and length (L).",
+      },
+    ],
+  },
   {
     subject: "Programming in C",
     slug: "c-programming",
