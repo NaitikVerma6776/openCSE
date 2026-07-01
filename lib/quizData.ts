@@ -32,6 +32,99 @@ export interface ModuleQuizCard {
 }
 
 export const quizzes: Quiz[] = [
+
+  {
+    subject: "Workshop Practice",
+    slug: "wp",
+    description: "Test your knowledge of workshop shops including fitting, welding, carpentry, smithy, sheet metal, foundry, and turning operations.",
+    questions: [
+      {
+        id: 1,
+        question: "Which tool is used for marking straight lines on a metal surface in the fitting shop?",
+        options: ["Hacksaw", "Scriber", "File", "Chisel"],
+        answer: 1,
+        explanation: "A scriber is a sharp-pointed tool used to mark lines on metal surfaces during fitting shop operations.",
+      },
+      {
+        id: 2,
+        question: "In arc welding, the heat required for welding is produced by:",
+        options: [
+          "Burning of gas",
+          "Electric arc between electrode and workpiece",
+          "Friction between two surfaces",
+          "High pressure application",
+        ],
+        answer: 1,
+        explanation: "In arc welding, an electric arc is struck between the electrode and the workpiece, generating intense heat (around 3500°C) that melts the metal to form a weld.",
+      },
+      {
+        id: 3,
+        question: "Which wood joint is commonly used to join two pieces of wood at right angles in carpentry?",
+        options: ["Butt Joint", "Dovetail Joint", "Mortise and Tenon Joint", "Lap Joint"],
+        answer: 2,
+        explanation: "The Mortise and Tenon joint is one of the strongest and most commonly used joints in carpentry for joining two pieces of wood at right angles.",
+      },
+      {
+        id: 4,
+        question: "The process of shaping metal by hammering it while it is hot is called:",
+        options: ["Casting", "Forging", "Rolling", "Extrusion"],
+        answer: 1,
+        explanation: "Forging is the process of shaping metal by applying compressive forces (hammering) while the metal is heated to a plastic state. This is the primary operation in the smithy shop.",
+      },
+      {
+        id: 5,
+        question: "Which operation is used to reduce the diameter of a workpiece on a lathe machine?",
+        options: ["Facing", "Knurling", "Turning", "Drilling"],
+        answer: 2,
+        explanation: "Turning is the lathe operation used to reduce the diameter of a cylindrical workpiece by removing material from its outer surface using a single-point cutting tool.",
+      },
+      {
+        id: 6,
+        question: "In the foundry shop, the cavity in the sand mould is created using a:",
+        options: ["Die", "Pattern", "Flask", "Sprue"],
+        answer: 1,
+        explanation: "A pattern is a replica of the final casting used to create the cavity in the sand mould. It is slightly larger than the final product to account for shrinkage.",
+      },
+      {
+        id: 7,
+        question: "Which sheet metal operation is used to cut sheet metal along a straight or curved line?",
+        options: ["Bending", "Drawing", "Shearing", "Forming"],
+        answer: 2,
+        explanation: "Shearing is the sheet metal cutting operation that cuts metal along a straight or curved line without forming chips, using two sharp blades.",
+      },
+      {
+        id: 8,
+        question: "The most important safety rule in any workshop is:",
+        options: [
+          "Always work fast to save time",
+          "Wear appropriate Personal Protective Equipment (PPE)",
+          "Use any available tool for the job",
+          "Avoid asking for help",
+        ],
+        answer: 1,
+        explanation: "Wearing appropriate PPE (safety goggles, gloves, aprons, safety shoes) is the most fundamental safety rule in any workshop to protect against injuries.",
+      },
+      {
+        id: 9,
+        question: "Which type of file has the coarsest cut and is used for rapid material removal?",
+        options: ["Smooth file", "Second cut file", "Bastard file", "Dead smooth file"],
+        answer: 2,
+        explanation: "A bastard file has the coarsest teeth among standard files and is used for rapid removal of material in the early stages of fitting shop work.",
+      },
+      {
+        id: 10,
+        question: "The facing operation on a lathe is performed to:",
+        options: [
+          "Reduce the diameter of the workpiece",
+          "Produce a flat surface at the end of the workpiece",
+          "Create a threaded surface",
+          "Make a hole through the workpiece",
+        ],
+        answer: 1,
+        explanation: "Facing is a lathe operation where the cutting tool is fed perpendicular to the axis of rotation to produce a flat, smooth surface at the end of the workpiece.",
+      },
+    ],
+  },
   {
     subject: "Programming in C",
     slug: "c-programming",
